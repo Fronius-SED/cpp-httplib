@@ -276,7 +276,7 @@ else()
 		COMPATIBILITY SameMajorVersion
 		# Tells Cmake that it's a header-only lib
 		# Mildly useful for end-users :)
-		ARCH_INDEPENDENT
+		#ARCH_INDEPENDENT
 	)
 endif()
 
